@@ -28,7 +28,6 @@ public class VolumeSettings : MonoBehaviour
     void Start()
     {
         LoadVolume(defaultVolume);
-        DontDestroyOnLoad(gameObject);
     }
 
     private void LoadVolume(float volume)
