@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class PenguinController : MonoBehaviour, IInteractable
 {
+    [SerializeField] private PenguinType type = PenguinType.None;
+
     private PenguinAnimationController _penguinAnimationController;
 
     private void Awake()
     {
-        _penguinAnimationController = new PenguinAnimationController(GetComponent<Animator>());
+        _penguinAnimationController = new PenguinAnimationController(GetComponent<Animator>(), type);
     }
 
     public void Interact()
     {
-        _penguinAnimationController.SetTrigger(PenguinAnimationType.JumpTrigger);
+        _penguinAnimationController.Animate();
     }
+}
+
+public enum PenguinType
+{
+    None,
+    Jump,
+    Attack
 }
