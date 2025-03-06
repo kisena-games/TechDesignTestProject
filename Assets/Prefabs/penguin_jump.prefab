@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2231492692655714133
+--- !u!1001 &411811929287959282
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,55 +8,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3035154844183582734, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
-      propertyPath: type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3928926475657028705, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 669451572675390373, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 075a7fe1b90953243ae4e7a9c2d7ebd1, type: 2}
-    - target: {fileID: 4116118468038660180, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 2623460626523379381, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_Name
       value: penguin_jump
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 4908985226407289635, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
+      propertyPath: type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6043712686013107030, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+    - target: {fileID: 5875244023003303608, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -64,4 +64,4 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 966080f6e8c227b4eaca65e4c5e5aedc, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cab79940ec01b1f49bfb951d093726f5, type: 3}
