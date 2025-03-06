@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 23342749}
   - component: {fileID: 23342748}
   m_Layer: 5
-  m_Name: StaticCanvas
+  m_Name: static_canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ GameObject:
   - component: {fileID: 145175870}
   - component: {fileID: 145175869}
   m_Layer: 5
-  m_Name: Exit_Button
+  m_Name: exit_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +482,7 @@ GameObject:
   - component: {fileID: 249887329}
   - component: {fileID: 249887330}
   m_Layer: 5
-  m_Name: Settings_Panel
+  m_Name: settings_panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 353001072}
   - component: {fileID: 353001074}
   m_Layer: 5
-  m_Name: SFX_Volume
+  m_Name: sfx_volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 456020150}
   - component: {fileID: 456020151}
   m_Layer: 5
-  m_Name: Menu_Panel
+  m_Name: menu_panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 468474488}
   - component: {fileID: 468474487}
   m_Layer: 5
-  m_Name: Scene_1_Button
+  m_Name: scene_1_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 535721999}
   - component: {fileID: 535722000}
   m_Layer: 5
-  m_Name: SFX_Slider
+  m_Name: sfx_slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 1150221211}
   - component: {fileID: 1150221210}
   m_Layer: 5
-  m_Name: Background_Image
+  m_Name: background_image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1636,7 +1636,7 @@ GameObject:
   - component: {fileID: 1215092073}
   - component: {fileID: 1215092072}
   m_Layer: 5
-  m_Name: Music_Volume
+  m_Name: music_volume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,7 +1748,7 @@ GameObject:
   - component: {fileID: 1312434337}
   - component: {fileID: 1312434336}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: game_manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2212,7 +2212,7 @@ GameObject:
   - component: {fileID: 1711750930}
   - component: {fileID: 1711750929}
   m_Layer: 5
-  m_Name: Scene_2_Button
+  m_Name: scene_2_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2343,7 +2343,7 @@ GameObject:
   - component: {fileID: 1812982922}
   - component: {fileID: 1812982923}
   m_Layer: 5
-  m_Name: Music_Slider
+  m_Name: music_slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 2129800460}
   - component: {fileID: 2129800459}
   m_Layer: 0
-  m_Name: AudioManager
+  m_Name: audio_manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
