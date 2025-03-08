@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationTextTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LocalizationTextTable
+  m_TableCollectionNameGuidString: 78e6d7365319a294abf4b8e0cc25c55e
+  m_Entries:
+  - m_Id: 285563637760
+    m_Key: scene_1_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355814035456
+    m_Key: scene_2_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 484340092928
+    m_Key: exit_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 545883115520
+    m_Key: sfx_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 563776016384
+    m_Key: music_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 559083772661760
+    m_Key: language_text
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7526109968253321240
+  references:
+    version: 2
+    RefIds:
+    - rid: 7526109968253321240
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1741292849642
