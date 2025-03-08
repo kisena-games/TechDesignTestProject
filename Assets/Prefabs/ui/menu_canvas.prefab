@@ -281,6 +281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3637415417566292165}
     m_Modifications:
+    - target: {fileID: 1053304652958833340, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 282.6844
+      objectReference: {fileID: 0}
     - target: {fileID: 1143453590942468817, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_Name
       value: sfx_text
@@ -327,7 +331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 520
+      value: 602.6843
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_SizeDelta.y
@@ -363,7 +367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -41.342163
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -392,6 +396,18 @@ PrefabInstance:
     - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_text
       value: SFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d85b7dc8081f3e34c8612dc3710f17be, type: 2}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1666411920743244487, guid: d85b7dc8081f3e34c8612dc3710f17be, type: 2}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -872,6 +888,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3637415417566292165}
     m_Modifications:
+    - target: {fileID: 1053304652958833340, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 284.3069
+      objectReference: {fileID: 0}
     - target: {fileID: 1143453590942468817, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_Name
       value: music_text
@@ -918,7 +938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 520
+      value: 602.68
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_SizeDelta.y
@@ -954,7 +974,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -41.342
       objectReference: {fileID: 0}
     - target: {fileID: 4598457172984884613, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -983,6 +1003,18 @@ PrefabInstance:
     - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
       propertyPath: m_text
       value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d85b7dc8081f3e34c8612dc3710f17be, type: 2}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1666411920743244487, guid: d85b7dc8081f3e34c8612dc3710f17be, type: 2}
+    - target: {fileID: 8634765315624573042, guid: 4c9880fe3606bbb40baef3bb1d0287f6, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

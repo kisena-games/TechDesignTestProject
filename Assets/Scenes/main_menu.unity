@@ -368,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: audio_manager
       objectReference: {fileID: 0}
+    - target: {fileID: 6113661055473267102, guid: cb9d00f810fdf1e4c9955b34bdbaf238, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b8cb67cfd09a21247b40f1f4a3a8ac6a, type: 3}
     - target: {fileID: 8555944450545458299, guid: cb9d00f810fdf1e4c9955b34bdbaf238, type: 3}
       propertyPath: sfxSlider
       value: 
@@ -485,6 +489,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7418487786029619983, guid: 7bc9ca45bea6190438da43684149412b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 182f129d8ad9ba84bad51467769fc188, type: 3}
     - target: {fileID: 7580588940966250071, guid: 7bc9ca45bea6190438da43684149412b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
