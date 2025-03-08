@@ -9,9 +9,10 @@ public class VolumeSettings : MonoBehaviour
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
 
-    private const string MusicVolumeKey = "MusicVolume";
-    private const string SFXVolumeKey = "SFXVolume";
-    private const float defaultVolume = 0.5f;
+    private const string MUSIC_VOLUME_KEY = "MusicVolume";
+    private const string SFX_VOLUME_KEY = "SFXVolume";
+
+    private float _defaultVolume = 0.5f;
 
     private void OnEnable()
     {
@@ -27,24 +28,24 @@ public class VolumeSettings : MonoBehaviour
 
     void Start()
     {
-        LoadVolume(defaultVolume);
+        LoadVolume(_defaultVolume);
     }
 
     private void LoadVolume(float volume)
     {
-        sfxSlider.value = PlayerPrefs.GetFloat(SFXVolumeKey, volume);
-        musicSlider.value = PlayerPrefs.GetFloat(MusicVolumeKey, volume);
+        sfxSlider.value = PlayerPrefs.GetFloat(SFX_VOLUME_KEY, volume);
+        musicSlider.value = PlayerPrefs.GetFloat(MUSIC_VOLUME_KEY, volume);
     }
 
     public void SetMusicVolume(float volume)
     {
-        audioMixer.SetFloat(MusicVolumeKey, Mathf.Log10(volume) * 20);
-        PlayerPrefs.SetFloat(MusicVolumeKey, volume);
+        audioMixer.SetFloat(MUSIC_VOLUME_KEY, Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat(MUSIC_VOLUME_KEY, volume);
     }
 
     public void SetSFXVolume(float volume)
     {
-        audioMixer.SetFloat(SFXVolumeKey, Mathf.Log10(volume) * 20);
-        PlayerPrefs.SetFloat(SFXVolumeKey, volume);
+        audioMixer.SetFloat(SFX_VOLUME_KEY, Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat(SFX_VOLUME_KEY, volume);
     }
 }
